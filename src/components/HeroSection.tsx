@@ -22,7 +22,7 @@ const HeroSection = () => {
             <div className={styles.heroContent}>
                 <div className={styles.title}>
                     <h1 className={styles.firstName}>Yash <br />
-                        <span className={styles.lastName}>Bhamare</span>
+                        <span className={styles.lastName}>Bhamre</span>
                     </h1>
                     <p className={styles.label}>BIM Professional | Architectural & Construction Technology Specialist</p>
                 </div>
