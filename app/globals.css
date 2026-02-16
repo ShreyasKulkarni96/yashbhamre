@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*body {
+  background-color: #ffffff;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-attachment: fixed;
+}*/
+
+body {
+  background-color: #ffffff;
+  background-size: 40px 40px;
+  background-attachment: fixed;
+}
+
+
+/* Minimal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.2);
+  border-radius: 999px;
+}
