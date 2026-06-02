@@ -7,6 +7,7 @@ import ProjectModal from "./ProjectModel";
 
 const tabs = [
   "All",
+  "FEA",
   "Steel",
   "Reinforced Concrete",
   "Industrial",

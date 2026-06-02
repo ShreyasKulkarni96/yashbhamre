@@ -109,6 +109,18 @@ export default function AboutSection() {
                 </ul>
               </div>
 
+                <div>
+                <h4 className="uppercase tracking-widest text-gray-700 mb-4 text-xs font-semibold">
+                  Structural Engineering Software Analysis & Design
+                </h4>
+                <ul className="space-y-2">
+                  <li>• STAAD.Pro</li>
+                  <li>• ETABS</li>
+                  <li>• ANSYS</li>
+                  <li>• AutoCAD</li>
+                </ul>
+              </div>
+
               <div>
                 <h4 className="uppercase tracking-widest text-gray-700 mb-4 text-xs font-semibold">
                   Professional Skills

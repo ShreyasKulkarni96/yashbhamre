@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { Layers3, Boxes, User } from "lucide-react";
+import { Layers3, Boxes, User, Calculator } from "lucide-react";
 
 
 const images = [
@@ -67,9 +67,9 @@ export default function Hero() {
 
                     {/* Description */}
                     <p className="mt-6 text-lg text-gray-400 max-w-xl leading-relaxed">
-                        Structural Engineer with 5+ years experience across industrial &
-                        building projects, combining design rigor with digital coordination
-                        (Revit / Tekla / Navisworks).
+                        I am a built environment professional with more than 7 years of experience contributing to industrial and building projects through 
+                        coordinated design and digital delivery. My role spans technical problem solving, design ntegration and project coordination, with a strong focus on buildability, efficiency and clarity of information.
+                        I work across project stages to ensure engineering solutions are safe, practical and ready for construction, supporting teams in delivering high-quality outcomes with confidence.
                     </p>
 
                     {/* Buttons */}
@@ -113,6 +113,25 @@ export default function Hero() {
                         >
                             <Boxes size={18} />
                             Explore BIM
+                        </motion.button>
+
+                                                <motion.button
+                        onClick={() => scrollToSection("qs")}
+                            whileHover={{ y: -4 }}
+                            className="flex items-center gap-2 px-8 py-3 
+                 bg-white/5 backdrop-blur-md
+                 border border-gray-600 
+                 text-gray-500 
+                 rounded-xl shadow-md
+                 transition-all duration-300
+                 hover:bg-gradient-to-r 
+                 hover:from-slate-950
+                 hover:to-slate-400 
+                 hover:text-white 
+                 hover:border-transparent"
+                        >
+                            <Calculator size={18} />
+                            QS & Cost Estimation
                         </motion.button>
 
                         {/* SECONDARY BUTTON - ABOUT */}
